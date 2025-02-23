@@ -1,0 +1,8 @@
+// XÂY DỰNG MÁY TURING M5 KIỂM TRA CHUỖI ĐỐI XỨNG
+Hàm chuyển trạng thái:
+    q0 --> 0 --> q0, 0, >
+    q0 --> 1 --> q0, 1, >
+    q0 --> # --> q1, #, <
+    q1 --> true --> q1, true, <
+    q1 --> false --> halt, false, -
+    q1 --> # --> halt, true, -

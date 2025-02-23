@@ -1,0 +1,15 @@
+# BÀI TOÁN CƯA CÂY
+
+Khu rừng có n cây cổ thụ được đánh số từ 1 đến n
+Cây thứ i có chiều cao a[i]
+
+Đội khai thác cần khai thác M mét gỗ để sản xuất, nhưng để bảo vệ môi trường nên chỉ cắt phần thân ngọn và để lại gốc để cây tiếp tục phát triển
+Họ đặt lưỡi cưa ở chiều cao h so với mặt đất và cưa tất cả các cây
+Tính độ cao h thích hợp nhất để lấy được M mét gỗ với lượng dư ít nhất
+
+INPUT:
+    + Dòng 1: nhập n, M
+    + Dòng 2: chiều cao a[i] của n cây trong rừng (a[i] < 10^10)
+OUTPUT: xuất màn hình giá trị h cần tìm
+
+Độ phức tạp thuật toán O(n*h) --> chưa thực sự hiệu quả

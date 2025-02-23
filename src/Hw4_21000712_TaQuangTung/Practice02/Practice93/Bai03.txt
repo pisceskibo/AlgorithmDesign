@@ -1,0 +1,6 @@
+# 2 trang web minh họa thuật toán Dijkstra
+https://www.cs.usfca.edu/~galles/visualization/Dijkstra.html
+https://visualgo.net/en/sssp?slide=1 
+
+# Ưu điểm: minh họa trực quan các bước thực hiện
+# Nhược điểm: hơi khó dùng cho người mới bắt đầu

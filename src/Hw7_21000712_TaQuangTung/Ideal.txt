@@ -1,0 +1,6 @@
+Quy hoạch động bằng xét dãy tăng giảm A1A2...An có n phần tử
+Bảng 1 chiều:
++ Công thức truy hồi 
++ Cơ số quy hoạch động 
++ Bảng phương án 
++ Truy vết tìm nghiệm

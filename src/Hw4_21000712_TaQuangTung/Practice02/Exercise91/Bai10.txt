@@ -1,0 +1,14 @@
+# Khái niệm cây bao trùm tối thiểu có thể áp dụng cho một kết nối có trọng số đồ thị
+1. Cây Bao Trùm Tối Thiểu (MST): 
++ Là một tập hợp các cạnh trong một đồ thị có trọng số và liên thông
++ Kết nối tất cả các đỉnh mà không tạo thành chu trình và có tổng trọng số của các cạnh là nhỏ nhất.
+2. Đồ thị có trọng số và liên thông: 
+MST chỉ áp dụng cho đồ thị có trọng số và liên thông
+=> nghĩa là từ bất kỳ đỉnh nào cũng có thể đi đến được đỉnh khác thông qua một loạt các cạnh
+
+# Có nhất thiết kiểm tra tính liên thông của đồ thì khi dùng Prim không?
++ Khi áp dụng thuật toán Prim không cần phải kiểm tra sự liên thông của đồ thị trước
++ Bản thân thuật toán Prim sẽ tự nhiên mở rộng cây bao trùm nhỏ nhất (MST) chỉ trong phạm vi của 
+thành phần liên thông mà bao gồm đỉnh bắt đầu. Nếu đồ thị không hoàn toàn liên thông (tức là, 
+nếu nó bao gồm hai hoặc nhiều thành phần liên thông riêng biệt), thuật toán Prim sẽ chỉ tạo ra 
+MST cho thành phần liên thông chứa đỉnh bắt đầu mà mình chọn

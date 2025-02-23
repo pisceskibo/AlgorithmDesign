@@ -1,0 +1,8 @@
+# Để thích ứng thuật toán Kruskal nhằm tìm ra rừng bao trùm nhỏ nhất (Minimum Spanning Forest - MSF) 
+cho một đồ thị bất kỳ, kể cả đồ thị không liên thông hoàn toàn, thực tế, bạn không cần phải thay đổi nhiều. 
+Điều này là bởi vì thuật toán Kruskal tự nhiên đã có khả năng xử lý đồ thị không liên thông bằng cách xây 
+dựng các cây bao trùm nhỏ nhất (MSTs) cho từng thành phần liên thông của đồ thị. Dưới đây là lý do:
++ Sắp xếp Cạnh: Thuật toán Kruskal bắt đầu bằng cách sắp xếp tất cả các cạnh của đồ thị dựa trên trọng số từ thấp đến cao
++ Chọn Cạnh: Sau đó, thuật toán sẽ lần lượt chọn cạnh nhẹ nhất từ danh sách đã sắp xếp, và thêm vào rừng bao trùm (ban đầu là rỗng) miễn là việc thêm cạnh đó không tạo thành chu trình trong bất kỳ cây nào trong rừng
++ Kiểm Tra Chu Trình: Để kiểm tra chu trình, thuật toán sử dụng cấu trúc dữ liệu rừng rời rạc (disjoint-set forest) để theo dõi các thành phần liên thông. Mỗi khi một cạnh mới được thêm vào, thuật toán sẽ kiểm tra xem hai đỉnh của cạnh đó có thuộc cùng một thành phần liên thông hay không
+=> Như vậy, không cần phải thực hiện bất kỳ thay đổi nào trong thuật toán Kruskal để nó có thể tìm ra MSF cho một đồ thị bất kỳ.

@@ -1,0 +1,6 @@
+// XÂY DỰNG MÁY TURING M6 CHÈN KÝ TỰ TRẮNG Ở ĐẦU CHUỖI
+Hàm chuyển trạng thái:
+    q0 --> i --> q0, i, >
+    q0 --> end --> q1, end, <
+    q1 --> i --> q1, i, <
+    q1 --> start --> halt, _, -

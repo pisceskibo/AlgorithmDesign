@@ -1,0 +1,14 @@
+# Ứng Dụng của Mã Hóa Huffman:
++ Nén Dữ Liệu: Mã hóa Huffman được sử dụng rộng rãi trong các phương thức nén dữ liệu, như nén tệp tin và nén ảnh, giúp giảm dung lượng lưu trữ và tăng tốc độ truyền tải.
++ Truyền Dữ Liệu: Trong việc truyền dữ liệu qua mạng, việc giảm kích thước dữ liệu thông qua mã hóa Huffman có thể giảm đáng kể thời gian và chi phí truyền tải.
++ Mã Hóa Âm Thanh và Video: Huffman được áp dụng trong các tiêu chuẩn mã hóa âm thanh và video, như MP3, JPEG, và MPEG, để tối ưu hóa kích thước file mà không làm mất quá nhiều thông tin.
+
+# Đặc Điểm của Mã Hóa Huffman:
++ Biến Độ Dài: Huffman sử dụng mã biến độ dài, nghĩa là các ký tự xuất hiện thường xuyên hơn sẽ có mã ngắn hơn, trong khi những ký tự ít xuất hiện có mã dài hơn. Điều này tạo nên hiệu quả nén dữ liệu cao.
++ Tối Ưu Prefix: Mỗi mã Huffman là duy nhất và không là prefix (tiền tố) của mã khác, giúp việc giải mã trở nên đơn giản và chính xác mà không cần thông tin bổ sung.
++ Tùy Biến Theo Dữ Liệu: Mã Huffman được tạo ra dựa trên tần suất xuất hiện của các ký tự trong dữ liệu cụ thể, do đó nó được tối ưu hóa cho từng tập dữ liệu.
+
+# Giải Thích:
++ Nén Dữ Liệu: Huffman giảm kích thước dữ liệu bằng cách sử dụng ít bit hơn cho các ký tự xuất hiện thường xuyên, qua đó giảm lượng dữ liệu cần lưu trữ hoặc truyền tải.
++ Truyền Dữ Liệu: Việc giảm kích thước dữ liệu giúp giảm thời gian và chi phí truyền dữ liệu qua mạng, đặc biệt quan trọng trong môi trường có băng thông hạn chế.
++ Mã Hóa Âm Thanh và Video: Trong các tệp âm thanh và video, việc loại bỏ thông tin ít quan trọng và sử dụng mã hóa Huffman cho phần thông tin quan trọng giúp giảm kích thước tệp đáng kể mà vẫn giữ được chất lượng chấp nhận được.

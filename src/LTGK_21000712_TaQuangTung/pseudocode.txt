@@ -1,0 +1,11 @@
+nCk(i) {
+    for (j = 1 --> n) {
+        if (x[i - 1] + 1 <= j <= n - k - i) {
+            x[i] = j
+
+            if (i < k) {
+                backtracking(i + 1)
+            }
+        }
+    }
+}

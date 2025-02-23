@@ -1,0 +1,16 @@
+Bài 5: Mô tả thuật toán đổi số nhị phân về thập phân
+a) Mô tả bước làm:
++ B1: Tách chuỗi nhị phân có độ dài n đó thành mảng
++ B2: Ta gọi sum = 0
++ B3: Lấy sum = sum + binary[n - 1 - i] * 2^i với i chạy từ 0 --> n - 1
++ B4: sum là số thập phân cần tìm --> kết thúc
+
+b) Mã giả:
+Function BinaryToDecimal(binaryNumber) {
+    decimalNumber = 0
+    length = Length(binaryNumber) - 1
+    for i from 0 to length:
+        digit = binaryNumber[length - i]
+        decimalNumber += digit * 2^i
+    return decimalNumber
+}

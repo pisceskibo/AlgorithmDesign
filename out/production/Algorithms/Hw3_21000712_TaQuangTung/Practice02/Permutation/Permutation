@@ -1,0 +1,8 @@
+1. PHÂN TÍCH BÀI TOÁN:
+Bài toán: Liệt kê các hoán vị của n phần tử
+Input: một mảng có n phần tử
+Output: Tất cả các hoán vị có thể của mảng đầu vào
+
+2. XÂY DỰNG THUẬT TOÁN DỰA TRÊN PHƯƠNG PHÁP THỬ SAI: Backtracking
++ Độ phức tạp thời gian: O(n!)
++ Độ phức tạp không gian: O(n)

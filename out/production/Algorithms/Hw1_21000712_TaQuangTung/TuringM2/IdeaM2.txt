@@ -1,0 +1,12 @@
+// XÂY DỰNG MÁY TURING M2 -1 VÀO NHỊ PHÂN
+K = {q0, q1, halt}
+sigma = {0, 1, #}
+Hàm chuyển:
+p thuộc K	delta thuộc sigma	delta(P, sigma)
+    q0			0			        q0, 0, >
+    q0			1			        q0, 1, >
+    q0			end			        q1, end, <
+    q1			0			        q1, 1, <
+    q1			1			        halt, 0, -
+
+Chú thích: # là ký tự cuối cùng, < là dịch traism, > là dịch phải
