@@ -1,8 +1,0 @@
-// XÂY DỰNG MÁY TURING M3 CHUYỂN 0 THÀNH 1 VÀ 1 THÀNH 0
-states = [S, halt]
-sigma = [0, 1, #]
-hàm chuyển:
-p thuộc K	delta thuộc sigma	delta(P, sigma)
-    S			0		            S, 1, >
-    S			1		            S, 0, >
-    S			end		            h, #, -

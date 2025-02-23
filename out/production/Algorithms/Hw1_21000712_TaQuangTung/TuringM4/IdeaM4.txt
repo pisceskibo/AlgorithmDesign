@@ -1,8 +1,0 @@
-// XÂY DỰNG MÁY TURING XÓA BỎ CÁC SỐ 0 TRONG NHỊ PHÂN
-states = [S, halt]
-sigma = [0, 1, #]
-hàm chuyển:
-p thuộc K	delta thuộc sigma	delta(P, sigma)
-    S			0		            S, #, >
-    S			1		            S, 1, >
-    S			end		            h, #, -

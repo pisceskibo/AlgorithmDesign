@@ -1,7 +1,0 @@
-Bài 2: New World puzzle
-B1: Người 1 và 2 qua cầu => 2p
-B2: Người 1 về => 1p
-B3: Người 3 và 4 qua cầu => 10p
-B4: Người 2 quay lại => 2p
-B5: Người 1 và người 2 => 2p
-(bước 2 và bước 4 đổi chỗ cho nhau)

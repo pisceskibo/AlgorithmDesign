@@ -1,8 +1,0 @@
-1. PHÂN TÍCH BÀI TOÁN:
-Bài toán: liệt kê tổ hợp n chập k
-Input: n và k
-Output: mảng gồm tất cả các tổ hợp k của n phần tử
-
-2. PHÂN TÍCH THUẬT TOÁN:
-+ Độ phức tạp thời gian: O(n^k)
-+ Độ phức tạp không gian: dựa vào đệ quy
